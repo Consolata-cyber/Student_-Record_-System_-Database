@@ -25,6 +25,8 @@ Courses (1-to-Many with Enrollments)
 Enrollments (junction table: Many-to-Many between Students and Courses)
 
 Grades (1-to-1 with Enrollments)
+
+
 Setup Instructions
 
 Clone this repository or copy the schema.sql file.
@@ -41,6 +43,7 @@ Verify database and tables:
 SHOW DATABASES;
 USE student_records_system;
 SHOW TABLES;
+
 
 
 
